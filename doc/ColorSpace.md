@@ -1,6 +1,15 @@
 # Color Space
 
-<center><img src="./img/ColorSpace.svg" height="300px" /></center>
+<div>
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./img/ColorSpace.svg" height="300px" />
+            </td>
+        </tr>
+    </table>
+</div>
+
 
 ## Color Space History
 
