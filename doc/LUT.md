@@ -4,17 +4,17 @@ Lookup table (LUT): a technique for optimizing the evaluation of functions that 
 
 You can put many things in LUTs, from [transfer functions](./Glossary.md/#transfer-function) to various [display transform](./Glossary.md/#display-transform) operators.
 
-> **_NOTE_**: To the best of my understanding LUTs contain many cached [display transforms](./Glossary.md/#display-transform) operators or [transfer functions](./Glossary.md/#transfer-function), therefore, all LUTs are considered [display transforms](./Glossary.md/#display-transform); but individual [display transform](./Glossary.md/#display-transform) operators or [transfer functions](./Glossary.md/#transfer-function) are not considered LUTs, unless cached properly
+> **_Note_**: To the best of my understanding LUTs contain many cached [display transforms](./Glossary.md/#display-transform) operators or [transfer functions](./Glossary.md/#transfer-function), therefore, all LUTs are considered [display transforms](./Glossary.md/#display-transform); but individual [display transform](./Glossary.md/#display-transform) operators or [transfer functions](./Glossary.md/#transfer-function) are not considered LUTs, unless cached properly
 
 ## LUT Types:
 
 There are two types of LUTs:
 
 - **<u>1D LUT</u>**: affects all RGB channels the same way; they generally contain a [transfer function](./Glossary.md/#transfer-function) or S-curve type function. It allows to display [HDR](./Glossary.md/#high-dynamic-range-image-hdr) images on [SDR](./Glossary.md/#standard-dynamic-range-image-sdr) monitors. May include operators like: brightness, gamma, contrast, color balance.
-> **_NOTE_**: 1D LUTs does not allow you to switch from one [gamut](./Glossary.md/#gamut) to another.
+> **_Note_**: 1D LUTs does not allow you to switch from one [gamut](./Glossary.md/#gamut) to another.
 
 - **3D LUT**: it affects RGB channels differently. This take the shape of a 3x3 matrix.
-> **_NOTE_**: 3D LUTs allows you to switch from one [gamut](./Glossary.md/#gamut) to another.
+> **_Note_**: 3D LUTs allows you to switch from one [gamut](./Glossary.md/#gamut) to another.
 
 ## Application Tips:
 

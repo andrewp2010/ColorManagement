@@ -1,11 +1,27 @@
 # Color Management Workflow
 
-<center><img src="./img/CMWOverview.svg" height="300px" /></center>
+<div align="center">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./img/CMWOverview.svg" height="300px" />
+            </td>
+        </tr>
+    </table>
+</div>
 
 [Color](./Glossary.md/#color) is light, so a [Color Management Workflow](./Glossary.md/#color-management-workflow) is the workflow of capturing light in a scene, artistically manipulating the light, and accurately emitting the light from a display. 
 > **_Note_**: The workflows discussed are comparable to using a camera, but this research focuses on computer generated scenes in an animation pipeline. Additionally, this research refers to monitors when discussing displays, but (to the best of my knowledge) displays can be considered any output device (i.e. printer, projector).
 
-<center><img src="./img/CMW.svg" height="300px" /></center>
+<div align="center">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./img/CMW.svg" height="500px" />
+            </td>
+        </tr>
+    </table>
+</div>
 
 ## CMW Pipeline:
 1. Artists use [texture maps](./Glossary.md#texture-map) and [DCC](./Glossary.md#digital-content-creation-dcc) [color swatches](./Glossary.md/#color-swatchpot) (or input colors) to define scene colors. When created these “input colors” are viewed with a [display transform](./Glossary.md/#display-transform), but the [display transform](./Glossary.md/#display-transform) is not baked into the data at export. Additionally, input colors are [nonlinear](./Glossary.md/#nonlinear) [decoded](./Glossary.md/#decode) values in any given [color space](./Glossary.md/#color-space).

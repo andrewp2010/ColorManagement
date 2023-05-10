@@ -1,6 +1,6 @@
 # Glossary
 
-> **_NOTE:_** There are terms in the color management world that have been used incorrectly for years and have become very ambiguous. Those words will be marked with: _(ambiguous)_. I have done my best to define them as they should be.
+> **_Note:_** There are terms in the color management world that have been used incorrectly for years and have become very ambiguous. Those words will be marked with: _(ambiguous)_. I have done my best to define them as they should be.
     
 ### **Color**:  
 > the psychological phenomena of perceiving light via the [Human Perceptual System](#human-perceptual-system). Compared to [chromaticity](#chromaticity), color is the physical stimuli and organic reaction of seeing light. Therefore, color is relative to any given context.

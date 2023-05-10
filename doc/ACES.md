@@ -2,13 +2,19 @@
 
 [Selan Jeremy](./WorksCited.md/#works-cited) perhaps gives the best concise ACES explanation:
 
-> **__NOTE__**: [Chris Brejon](./WorksCited.md/#works-cited) has a more thorough article that discusses the ins and outs of ACES [here](https://chrisbrejon.com/cg-cinematography/chapter-1-5-academy-color-encoding-system-aces/). Though he does mention in later posts that after further experience with ACES, he failed to address the present day downfalls of ACES accurately. Nevertheless it's a great resource for a clear description of all the ACES processes.
+> **_Note_**: [Chris Brejon](./WorksCited.md/#works-cited) has a more thorough article that discusses the ins and outs of ACES [here](https://chrisbrejon.com/cg-cinematography/chapter-1-5-academy-color-encoding-system-aces/). Though he does mention in later posts that after further experience with ACES, he failed to address the present day downfalls of ACES accurately. Nevertheless it's a great resource for a clear description of all the ACES processes.
 
 "The Academy of Motion Picture Arts & Science has proposed a unification of [scene-linear](./Glossary.md/#linear-ambiguous) floating-point workflows, which adheres to many of the approaches outlined in this document. If successful, the ACES project will allow for the unambiguous interchange of floating point imagery. At its core is the Academy Color Encoding Space, called ACES for short. This color space is a [high-dynamic range](./Glossary.md/#high-dynamic-range-image-hdr), [scene-linear](./Glossary.md/#linear-ambiguous) space, with middle gray pegged to 0.18, and a very wide color gamut. When stored on disk, aces files are stored in a constrained version of the OpenEXR format."
 
-<br />
-<center><img src="./img/ACEsPipeline.png" height="300px" /></center>
-<br />
+<div align="center">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./img/ACEsPipeline.png" height="300px" />
+            </td>
+        </tr>
+    </table>
+</div>
 
 "The Academy also defines the [viewing transform](./Glossary.md/#display-transform) necessary for viewing ACES files. The [view transform](./Glossary.md/#display-transform) is conceptually segmented into two portions. First, the Reference Rendering Transform (RRT) applies a local contrast boost and tone-renders [scene-linear](./Glossary.md/#linear-ambiguous) imagery to [display linear](./Glossary.md/#linear-ambiguous). Then, a second portion of the [view transform](./Glossary.md/#display-referred-image) called the Output Device Transform (ODT) is used to provide [gamut](./Glossary.md/#gamut) mapping and further tone mapping to the target output device. The RRT portion is constant across all displays, but the ODT varies from output display device to output display device. ODTs are provided for common display specifications such as sRGB, Rec. 709, DCI-P3, X’Y’Z’, etc.
 

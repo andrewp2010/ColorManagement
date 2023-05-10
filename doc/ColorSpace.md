@@ -55,13 +55,29 @@ It’s important to know that this model is a top down view of a 3-axis graph. T
 
 ## Color Space Components
 
-<center><img src="./img/CIE1931Model.png" height="500px" /></center>
+<div align="center">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./img/CIE1931Model.png" height="500px" />
+            </td>
+        </tr>
+    </table>
+</div>
 
 A [color space](./Glossary.md/#color-space) is made of three components:
 
 1. **[Primaries](./Glossary.md/#primaries)**: three unique [chromaticities](./Glossary.md/#chromaticity) that define the [gamut](./Glossary.md/#gamut) within a given [color space](./Glossary.md/#color-space). The primaries will always define the [color](./Glossary.md/#color) of red, green, and blue in a given [color space](./Glossary.md/#color-space).
 
-<center><img src="./img/Whitepoints.png" height="300px" /></center>
+<div align="center">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="./img/Whitepoints.png" height="300px" />
+            </td>
+        </tr>
+    </table>
+</div>
 
 2. **[Whitepoint](./Glossary.md/#whitepoint)**: the [chromaticity](./Glossary.md/#chromaticity) in a [color space](./Glossary.md/#color-space) that defines “white” to the standard viewer. Any set of [chromaticities](./Glossary.md/#chromaticity) lying on the neutral axis passing through the [whitepoint](./Glossary.md/#whitepoint), will be neutral to that color space.
 > **_See_**: [white](./Glossary.md/#white) for additional information.
