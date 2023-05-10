@@ -1,6 +1,6 @@
 # Color Space
 
-<div>
+<div align="center">
     <table>
 	    <tr>
     	    <td style="padding:10px">
@@ -9,7 +9,6 @@
         </tr>
     </table>
 </div>
-
 
 ## Color Space History
 
